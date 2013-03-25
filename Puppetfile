@@ -33,3 +33,33 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+include appcleaner
+include vlc
+include chrome
+include adium
+include skype
+include daisy_disk
+include dropbox
+include textmate2::release
+include mou
+include transmission
+include textexpander
+include alfred
+include virtualbox
+include googleearth
+include onepassword
+include istatmenus4
+include handbrake
+include caffeine
+include minecraft
+include python
+include zsh
+include mysql
+include postgresql
+include imagemagick
+include redis
+
+heroku::plugin { 'accounts':
+  source => 'ddollar/heroku-accounts'
+}
