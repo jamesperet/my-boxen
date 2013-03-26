@@ -2,7 +2,7 @@ class people::jamesperet {
 
   $home     = "/Users/${::luser}"
   $my       = "${home}/my"
-  $dotfiles = "${my}/dotfiles"
+  $dotfiles = "${home}dotfiles"
 
   repository { $dotfiles:
     source  => 'jamesperet/dotfiles',

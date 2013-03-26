@@ -4,7 +4,7 @@ class projects::hisys {
     ruby   => '1.9.3',
     postgresql  => true,
     nginx  => true,
-    source => 'HighEffects/hisys',
+    source => 'HighEffects/HiSYS',
     redis  => false,
     elasticsearch => false,
     dotenv => false
